@@ -1,0 +1,75 @@
+/* styles2.css */
+body {
+    background-color: #1a1a1a; /* Dark background for the entire body */
+    color: #ffffff; /* White text color for better contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header {
+    background-color: #333; /* Slightly lighter dark background for the header */
+    padding: 1em 0; /* Add some padding around the header content */
+    text-align: center; /* Center align the header content */
+}
+
+header h1 {
+    color: #ffa500; /* Orange color for the h1 element */
+    margin: 0; /* Remove default margin to bring nav closer to the h1 */
+    font-size: 3em; /* Adjust the size of your h1 element */
+}
+
+h2{
+    text-align: justify;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Align nav items right below the h1 */
+    text-align: center; /* Center the navigation items */
+}
+
+nav ul li {
+    display: inline; /* Display the list items inline */
+    margin-right: 20px; /* Space out the nav items */
+}
+
+nav ul li a {
+    color: #ffffff; /* White color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    text-transform: uppercase; /* Uppercase text for stylistic preference */
+    font-weight: bold; /* Make the nav items bold */
+    font-size: 1.2em; /* Increase the font size */
+    padding: 0.5em; /* Add some padding for a button-like appearance */
+}
+
+nav ul li a:hover {
+    color: #ffa500; /* Change link color to orange on hover for a nice effect */
+}
+
+section {
+    padding: 2em; /* Add padding to sections for spacing */
+}
+
+section h2 {
+    color: #ffa500; /* Orange color for h2 elements to match the h1 */
+}
+p {
+    background-color: #333;
+    text-align: justify;    
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+
+
+}
+footer {
+    background-color: #333; /* Same as header for a cohesive look */
+    color: #ffffff; /* White color for the footer text */
+    text-align: center; /* Center-align the footer content */
+    padding: 1em 0; /* Add some padding to the footer */
+    margin-top: 2em; /* Add margin on top of the footer */
+}
+
+/* You can add more specific styles below for individual elements or pages */
