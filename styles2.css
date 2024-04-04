@@ -21,6 +21,7 @@ header h1 {
 
 h2{
     text-align: justify;
+    padding: none; 
 }
 
 nav ul {
@@ -56,11 +57,10 @@ section h2 {
     color: #ffa500; /* Orange color for h2 elements to match the h1 */
 }
 p {
-    background-color: #333;
-    text-align: justify;    
-    margin-left: 150vw;
-    margin-right: 150vw;
-    padding: 15vw;
+    background-color: #1b1b1b;
+    text-align: justify;
+    color: #ffffff;
+    padding: 1vw;
 
 
 }
@@ -75,13 +75,14 @@ footer {
 /* Add this to styles2.css */
 
 #gallery {
-    padding: 4em;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 3 columns grid */
-    gap: .2em;
+    gap: 0.5em;
     justify-content: center;
 }
 
