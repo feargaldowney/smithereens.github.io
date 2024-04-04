@@ -32,7 +32,7 @@ nav ul {
 
 nav ul li {
     display: inline; /* Display the list items inline */
-    margin-right: 20px; /* Space out the nav items */
+    margin-right: 20vw; /* Space out the nav items */
 }
 
 nav ul li a {
@@ -58,9 +58,9 @@ section h2 {
 p {
     background-color: #333;
     text-align: justify;    
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 15px;
+    margin-left: 150vw;
+    margin-right: 150vw;
+    padding: 15vw;
 
 
 }
@@ -87,9 +87,9 @@ footer {
 
 .photo-grid img {
     width: 100%; /* Make image width responsive to the container size */
-    max-width: 300px; /* Maximum width of the images */
+    max-width: 300vw; /* Maximum width of the images */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Optional: for rounded corners */
+    border-radius: 2vw; /* Optional: for rounded corners */
     transition: transform 0.3s ease-in-out;
     margin-bottom: 1em; /* Add space below images */
 }
